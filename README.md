@@ -42,6 +42,7 @@ The passable platforms here are done so that the player can return to the top if
 ## 3. Spatiotemporal Design
 
 ### 3.1. Molecule Diagram
+![MoleculeDiagram](DocImages/MoleculeDiagram.png)
 
 ### 3.2. Level Map – Section 1
 ![Section1](DocImages/Section1.png)
