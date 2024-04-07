@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
+### Name: Alexander Michael Wilson
+### Student number: 47785624
 
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
@@ -15,20 +15,19 @@ Example:
 
 ![This is the alt text for an image!](DocImages/exampleimage.png)
 
-## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
+## 1. Player Experience 
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+In the level I designed the players learn the core mechanics of each individual part of the game in encounters of the first section, separated enough so that they do not get overwhelmed by too many things at once. Each new obstacle is spaced well enough in the short time given that they will understand how each core mechanic works before being combined with others together in later sections of the level. Spreading the encounters this way throughout the level, with clear rest spaces between, encourages the player to learn and understand the core mechanics of the game, and perhaps explore new techniques not originally thought about by the designers. I’m certain there are things I didn’t think about as I designed the encounters that could be done to make things easier, or challenging tricks for skilled players to try having played before. These follow good design practices by rewarding players for their participation and exploration, and encouraging players to come back and try things again with new perspectives.
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+The intensity curve has a slow climb throughout the level, having brief recesses after each small spike of activity. It climbs as each new obstacle is presented, incorporating new mechanics or a combination of previously seen ones. As the player progresses they become more comfortable with the core mechanics and so the difficulty of encounters climbs to match their progress. The intensity peaks as they reach the third section of the stage, where all their skills are tested in small spaces, and many different obstacles are presented together. The only relief here comes from where the player clears out the space, finally reaching the goal at the end of the level. The design facilitates this experience by pressing the player onward to each new encounter, presenting new and tougher challenges without a completely overwhelming amount of new information. Each of these is followed by a short space to calm down and prepare for the next encounter, being able to mark progress in a clear way for the player.
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+The main challenges in the level are learning the depths of each of the core mechanics and progressing through each of the encounters. Each encounter is designed to slowly introduce each of the core mechanics to the player, so that they can learn how to overcome more challenging encounters in later segments of the level, though more new concepts are introduced to the player as they progress through each of the introductory encounters. This way the challenge still continues to climb slowly while the player progresses through the early encounters before starting to increase it further with more complex encounters after all introductions are complete. As the encounters progress this way the difficulty curve climbs at an fairly even pace throughout the level, though some players will still grasp the concepts quicker than others. As long as the player has some understanding of the mechanics in the first section of the level, they will be able to complete the rest of the level without losing focus.
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+The level design has a mostly linear path, with spaces unreachable even if the player tries to reach it, or leading nowhere. However, there are parts of the level that branch in different directions, requiring the player to explore to find not only the right path, but also every key that they need to pass the level. Throughout the level there are no signs directly pointing the player in a specific direction, requiring some exploration from the player to find the correct path forward. The design manages to create distinct spaces by not having areas designs be repeats of each other, no space is directly the same. Each space also has some defining characteristic or unique encounter to separate itself from other rooms, leading to unique and memorable spaces for the player to explore. Of course, some rooms will stand out more than others, and therefore be better remembered, but each room being different from each other makes it easier for the player to navigate without getting confused.
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -37,27 +36,16 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-### 2.1. Acid
+### 2.1. Spikes & Moving Platforms
 
-### 2.2. Checkpoints
+### 2.2. Acid & Checkpoints
 
-### 2.3. Chompers
+### 2.3. Weapon Pickup (Staff), Chompers & Breakable Walls
 
-### 2.4. Health Pickups
+### 2.4. Weapon Pickup (Gun), Spitters, Health Pickups & Keys
 
-### 2.5. Keys
+### 2.5. Passthrough Platforms
 
-### 2.6. Moving Platforms
-
-### 2.7. Passthrough Platforms
-
-### 2.8. Spikes
-
-### 2.9. Spitters
-
-### 2.10. Weapon Pickup (Gun)
-
-### 2.11. Weapon Pickup (Staff)
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
