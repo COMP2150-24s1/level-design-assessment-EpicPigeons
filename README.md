@@ -3,18 +3,6 @@
 ### Name: Alexander Michael Wilson
 ### Student number: 47785624
 
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
-
 ## 1. Player Experience 
 
 ### 1.1. Discovery
@@ -29,75 +17,42 @@ The main challenges in the level are learning the depths of each of the core mec
 ### 1.4. Exploration
 The level design has a mostly linear path, with spaces unreachable even if the player tries to reach it, or leading nowhere. However, there are parts of the level that branch in different directions, requiring the player to explore to find not only the right path, but also every key that they need to pass the level. Throughout the level there are no signs directly pointing the player in a specific direction, requiring some exploration from the player to find the correct path forward. The design manages to create distinct spaces by not having areas designs be repeats of each other, no space is directly the same. Each space also has some defining characteristic or unique encounter to separate itself from other rooms, leading to unique and memorable spaces for the player to explore. Of course, some rooms will stand out more than others, and therefore be better remembered, but each room being different from each other makes it easier for the player to navigate without getting confused.
 
-## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
+## 2. Core Gameplay
 
 ### 2.1. Spikes & Moving Platforms
-
 ![Encounter1](DocImages/Encounter1.png)
+For the first encounter introducing players to the game I wanted an easy, low stakes challenge. Hence spikes being easily avoidable, and only hurting the player without requiring a respawn. The moving platform here also seemed like a good point to introduce them to timed events, with no real consequences to worry about.
 
 ### 2.2. Acid & Checkpoints
-
 ![Encounter2](DocImages/Encounter2.png)
+Here raising the stakes slightly seemed like a good idea, by having a small easily jumpable pit of acid before the player with a platform in the middle. A checkpoint is also right after this as having two encounters without a checkpoint for the player seems too harsh for an early level. The checkpoint also works as extra motivation for the player to cross the acid pit without falling in.
 
 ### 2.3. Weapon Pickup (Staff), Chompers & Breakable Walls
-
 ![Encounter3](DocImages/Encounter3.png)
+With the first of the weapon pickups I wanted to showcase all of its uses in the encounter. To do so I placed a Chomper to introduce the player to enemy characters, and to encourage the player to fight. Doing so would get the player used to the distance and small lunge of the swing attack. It would also show the breakable walls that they would need to hit a few times in order to proceed. The walls use here is also partially an aesthetic choice, to fit with the cave entrance idea as the player enters a large cave network for the rest of the level.
 
 ### 2.4. Weapon Pickup (Gun), Spitters, Health Pickups & Keys
-
 ![Encounter4](DocImages/Encounter4.png)
+Introducing the gun felt best to me with some kind of shooting range concept. So taking this idea the player is confronted with Spitters in spaces up the wall next to the moving platform here to shoot at as they ride the platform up. It gives players a decent idea of the range of the Spitters, their attack style and how to dodge them. It also encourages the player to shoot them as they pass by, hopefully getting players to react quickly with a shot as they pass. It also shows the player their first health pickup and key at the top of the moving platform. The key is both to encourage them to explore all paths, being on the opposite side to where they need to go, as well as showing them the collectible they need. The health pack is there as the player has likely taken some hits by now.
 
 ### 2.5. Passthrough Platforms
-
 ![Encounter5](DocImages/Encounter5.png)
+The passable platforms here are done so that the player can return to the top if they miss a collectible of some kind that they need, instead of a drop locking them off. I don’t want to leave a possibility of not completing the level.
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
 
-No additional words are necessary for this section (any words should only be within your images/diagrams).
- 
 ### 3.1. Molecule Diagram
 
 ### 3.2. Level Map – Section 1
-
 ![Section1](DocImages/Section1.png)
 
 ### 3.3.	Level Map – Section 2
-
 ![Section2](DocImages/Section2.png)
 
 ### 3.4.	Level Map – Section 3
-
 ![Section3](DocImages/Section3.png)
 
-## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+## 4. Iterative Design 
+Iterative design has only slightly improved my level. Most of the changes I made during the design process from start to finish was replacing some objects that I felt were underused with others that I felt were a little overused, such as replacing the acid in the lower part of section two with spikes, as they were not very commonly used at all, or simply moving things around so that things flowed more cleanly. Again in the second section, as I initially had some misunderstandings about the assignment, had an extra key. In Unity, I moved the health pickup here and the checkpoint down the platforms. The last section also had several changes made. Several more health pickups were spread around so that the player has plenty of extra health while navigating, the acid pits were made smaller as it was difficult to almost impossible to clear the jump initially, and an extra Chomper was added to the top level. The key and door cave spaces were also pushed back and expanded slightly to make them seem more impressive and memorable.
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
-
-## Generative AI Use Acknowledgement
-
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
-
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
-
-
+This level would probably benefit from further iterative design revisions in order to improve the player experience, however, I think more spaces would need to be added, or existing spaces expanded, for it to have the greatest possible effect. The middle section would be the most interesting space to add some interesting and fun new challenges with the extra space. The acid pit at the top especially could lead to some cool new ideas, perhaps with level puzzles and using the gun to trigger them, or pushing blocks to form a path. The space below could be moved to the top to accommodate some of those interesting new ideas.
