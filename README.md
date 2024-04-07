@@ -56,9 +56,11 @@ No additional words are necessary for this section (any words should only be wit
 
 ### 3.2. Level Map – Section 1
 
-![Section1](DocImages/Section1.png)
+![Section_1](DocImages/Section1.png)
 
 ### 3.3.	Level Map – Section 2
+
+![Section_2](DocImages/Section_2.png)
 
 ### 3.4.	Level Map – Section 3
 
